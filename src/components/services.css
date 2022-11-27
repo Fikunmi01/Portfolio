@@ -1,0 +1,88 @@
+.services {
+    height: 80vh;
+    background-color: #f3f5f7;
+    padding-top: 5%;
+}
+
+.card {
+    text-align: left;
+    display: inline-block;
+    margin-right: 2.5%;
+    border-radius: 0.7rem;
+    width: 15%;
+    height: 24rem;
+    background-color: red;
+    opacity: 100%;
+    background-color: #fff;
+    box-shadow: 0.1rem 0.1rem 0.1rem 0.1rem rgba(0, 0, 0, 0.5);
+}
+
+.card img {
+    width: 20%;
+}
+
+.card span {
+    padding-left: 6%;
+
+    top: 20%;
+    position: relative;
+}
+
+.card h3 {
+    font-size: 2rem;
+    padding-left: 6%;
+    width: 50%;
+    line-height: 1.5;
+}
+
+.card a {
+    padding-left: 6%;
+    display: flex;
+    font-size: 1.4rem;
+    text-decoration: none;
+    align-items: center;
+    cursor: pointer;
+}
+
+#arrow {
+    width: 10%;
+}
+
+
+
+@media screen and (max-width:600px) {
+    .card {
+        width: 28%;
+        height: 20rem;
+    }
+
+    .card h3 {
+        font-size: 1.6rem;
+    }
+
+    .card a {
+        font-size: 1.4rem;
+    }
+    .services {
+        /* height: 100%; */
+    }
+}
+
+
+@media screen and (min-width:768px) {
+    .card {
+        width: 28%;
+    }
+}
+
+@media screen and (min-width:1024px) {
+    .card {
+        width: 18%;
+    }
+}
+
+@media screen and (min-width:1440px) {
+    .card {
+        width: 17%;
+    }
+}

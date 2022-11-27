@@ -1,0 +1,53 @@
+.footer {
+    background-color: #102438;
+    font-family: 'Kalam', cursive;
+    height: 30vh;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 5%;
+    align-items: center;
+    padding-right: 5%;
+    color: #E3F0FC;
+}
+
+.flexOne h2 {
+    line-height: 1;
+    font-size: 4rem;
+}
+
+.flexTwo {
+    display: flex;
+    gap: 2rem;
+}
+
+.flexTwo .uil {
+    color: #E3F0FC;
+    font-size: 1.8rem;
+}
+
+.flexOne p {
+    font-size: 1.8rem;
+}
+
+.footer-bottom {
+    font-family: 'Kalam',cursive;
+    padding-left: 0.1%;
+    display: flex;
+    align-items: center;
+    height:4vh;
+}
+
+.footer-bottom p {
+    font-size: 1.6rem;
+}
+
+
+@media screen and (max-width:600px) {
+    .flexOne h2 {
+        font-size: 2rem;
+    }
+
+    .flexOne p {
+        font-size: 1.4rem;
+    }
+}

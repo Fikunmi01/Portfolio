@@ -1,0 +1,97 @@
+.cta {
+    font-family: 'Kalam',cursive;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 6%;
+}
+
+.cta-card {
+    display: flex;
+    background-color: #f3f5f7;
+    padding-left: 3%;
+    box-shadow: 0.1rem 0.1rem 0.1rem 0.1rem rgba(0, 0, 0, 0.5);
+    border-radius: 3rem;
+}
+
+.cta-card img {
+    width: 90%;
+}
+
+.cta-card .one {
+    margin: auto;
+}
+
+.cta-card h3 {
+    font-size: 2.5rem;
+}
+
+.cta-card p {
+    font-size: 1.6rem;
+    width: 80%;
+}
+
+.cta button {
+    background-color: #102438;
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+    color: #f3f5f7;
+    font-family: 'Kalam',cursive;
+    border-radius: 0.6rem;
+    border: 0.1rem solid #102438;
+    box-shadow: 0.1rem 0.1rem 0.1rem 0.1rem rgba(0, 0, 0, 0.5);
+}
+
+
+@media screen and (max-width:600px) {
+    .cta-card {
+        width: 85%;
+        height: 40vh;
+        display: flex;
+        align-items: center;
+    }
+
+    .cta-card h3 {
+        font-size: 150%;
+    }
+
+    .cta-card img {
+        width: 100%;
+    }
+
+    .cta-card p {
+        font-size: 100%;
+        width: 100%;
+        word-wrap: break-word;
+    }
+
+    .cta button {
+        width: 10rem;
+        height: 6vh;
+    }
+}
+
+
+@media screen and (min-width:768px) {
+    .cta-card {
+        width: 85%;
+    }
+    
+    .cta button {
+        width: 11rem;
+    }
+}
+
+@media screen and (min-width:1024px) {
+    .cta-card {
+        width: 60%;
+    }
+}
+
+@media screen and (min-width:1440px) {
+    .cta-card {
+        width: 50%;
+    }
+}

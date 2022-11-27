@@ -1,0 +1,146 @@
+.hero {
+    padding-left: 10%;
+    display: flex;
+    height: 76vh;
+    background-color: #f3f5f7;
+    justify-content: space-evenly;
+    padding-right: 10%;
+    padding-top: 5%;
+}
+
+.hero-img img {
+    width: 100%;
+}
+
+.hero-img {
+    width: 50%;
+}
+
+.hero-description h2 {
+    font-family: 'Kalam', cursive;
+    font-size: 3rem;
+}
+
+.hero-description {
+    width: 45%;
+    padding-top: 7%;
+}
+
+.hero-description p {
+    font-size: 1.6rem;
+    font-family: 'Kalam', cursive;
+}
+
+.hero-description button {
+    background-color: #102438;
+    border-color: #102438;
+    font-size: 1.6rem;
+    /* width: 13.4rem; */
+    padding-left: 3%;
+    padding-top:3%;
+    margin-top: 5%;
+    padding-bottom: 3%;
+    border-radius: 0.5rem;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    gap: 5%;
+    font-family: 'Kalam', cursive;
+}
+
+.scrollDown {
+    margin-top: 10%;
+    display: flex;
+    align-items: center;
+}
+
+.uil {
+    color: #102438;
+    font-size: 3rem;
+}
+
+.social-link {
+    display: flex;
+    padding-top: 9%;
+    gap: 5%;
+    padding-right: 5%;
+    flex-direction: column;
+}
+
+.uil-navigator {
+    font-size: 2rem;
+    color: #fff;
+}
+
+
+@media screen and (max-width:600px) {
+    .hero {
+        height: 90vh;
+    }
+    
+    .hero .uil {
+        font-size: 200%;
+    }
+
+    .social-link {
+        left: 7.5%;
+        position: absolute;
+    }
+
+    .hero-img img{
+        width: 180%;
+    }
+
+    .hero-img {
+        left:16%;
+        position: absolute;
+    }
+
+    .hero-description {
+        position: absolute;
+        top: 6%;
+        left: 0%;
+        padding-left: 8%;
+    }
+
+    .hero-description h2 {
+        font-size: 200%;
+        width: 150%;
+    }
+
+    .hero-description p {
+        width: 200%!important;
+    }
+
+    .hero-description .role {
+        font-size: 150%;
+        width: 150%;
+        margin-top: -7%;
+    }
+
+    .hero-description button {
+        width: 13rem;
+        height: 8vh;
+        padding-left: 6%;
+    }
+
+    .uil-navigator {
+        font-size: 100%!important;
+    }
+
+    .scrollDown {
+        display: none;
+    }
+}
+
+
+
+@media screen and (min-width:768px) {
+    .hero-img img {
+        width: 130%;
+    }
+
+    .hero-description button {
+        width: 13rem;
+    }
+}

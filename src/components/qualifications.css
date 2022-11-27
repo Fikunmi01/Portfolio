@@ -1,0 +1,126 @@
+.qualification {
+    position: relative;
+    height: 110vh;
+    padding-top: 2%;
+}
+
+.qualification-menu {
+    display: flex;
+    justify-content: center;
+    gap: 2%;
+}
+
+.qualification-menu a {
+    align-items: center;
+    font-family: 'kalam', cursive;
+    text-decoration: none;
+    font-size: 3rem;
+    font-weight: 900;
+}
+
+.active {
+    color: #000;
+}
+
+.link {
+    color: rgba(0, 0, 0, 0.5);
+}
+
+
+
+.qualification__rounder{
+    display: inline-block;
+    width: 13px;
+    height: 13px;
+    background-color: #102438;
+    border-radius: 50%;
+}
+
+#sub-rounder{
+    position: relative;
+    top: -7%;
+}
+
+#sub-line{
+    position: relative;
+    top: -7%;
+}
+
+#sub-rounder1{
+    position: relative;
+    top: -13%;
+}
+
+#sub-line1{
+    position: relative;
+    top: -13%;
+}
+
+#sub-rounder2{
+    position: relative;
+    top: -19%;
+}
+
+#sub-line2{
+    position: relative;
+    top: -19%;
+}
+
+#sub-rounder3{
+    position: relative;
+    top: -25%;
+}
+
+.gen-rounder .qualification__line{
+    display: block;
+    width: 1px;
+    position: relative;
+    top: -1%;
+    height: 140%;
+    background-color: #102438;
+    transform: translate(6px, -7px);
+}
+
+.gen-rounder{
+    top: 6rem;
+    right: 1%;
+    position: relative;
+}
+
+
+
+@media screen and (max-width:600px) {
+    .qualification {
+        height: 130vh;
+    }
+    .qualification-menu {
+        gap: 12%;
+    }
+    
+    .qualification-menu a {
+        font-size: 2rem;
+    }
+
+    .gen-rounder {
+        right: 5%;
+    }
+}
+
+
+@media screen and (min-width:768px) {
+    .qualification {
+        height: 130vh;
+    }
+}
+
+@media screen and (min-width:1024px) {
+    .qualification {
+        height: 115vh;
+    }
+}
+
+@media screen and (min-width:1440px) {
+    .qualification {
+        height: 80vh;
+    }
+}

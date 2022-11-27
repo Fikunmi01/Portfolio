@@ -1,0 +1,102 @@
+.testimonial {
+    font-family: 'Kalam', cursive;
+    height: 80vh;
+    background-color: #f3f5f7;
+    margin-top: 4%;
+    padding-bottom: 4%;
+}
+
+.testimonial .mySwiper {
+    background-color: #E3F0FC;
+    box-shadow: 0.1rem 0.1rem 0.1rem 0.1rem rgba(0, 0, 0, 0.5);
+    margin-top: 5%;
+    width: 50%;
+    height: 45vh;
+    border-radius: 2rem;
+}
+
+.testimonial .swiper-slide {
+    left: 10%;
+    margin-top: 5%;
+}
+
+.testimonial .author {
+    font-size: 2rem;
+}
+
+.testimonial .client {
+    font-size: 1.4rem;
+}
+
+.testimonial .review {
+    font-size: 1.8rem;
+    width: 85%;
+}
+
+.swiper-button-prev {
+    background-image: url('../angle-left-b.svg');
+    background-repeat: no-repeat;
+    left: 0%;
+}
+
+.swiper-button-prev::after {
+    display: none;
+}
+
+.swiper-button-next {
+    background-image: url(../angle-right-b.svg);
+    background-repeat: no-repeat;
+    right: 0%;
+}
+
+.swiper-button-next::after {
+    display: none;
+}
+
+@media screen and (max-width:600px) {
+    .testimonial .mySwiper {
+        width: 85%;
+        height: 50%;
+    }
+
+    .testimonial .review {
+        font-size: 1.2rem;
+    }
+}
+
+
+@media screen and (min-width:768px) {
+    .testimonial .mySwiper {
+        width: 85%;
+    }
+}
+
+@media screen and (min-width:1024px) {
+    .testimonial .mySwiper {
+        width: 60%;
+    }
+}
+
+
+@media screen and (min-width:1440px) {
+    .testimonial .mySwiper {
+        width: 70%;
+        height: 45vh;
+    }
+
+    .testimonial .review {
+        font-size: 300%;
+    }
+
+    .testimonial .swiper-slide {
+        left: 7%;
+    }
+
+    .testimonial .author {
+        font-size: 300%;
+    }
+
+    .testimonial .client {
+        font-size: 300%;
+    }
+}

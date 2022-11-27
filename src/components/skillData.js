@@ -1,0 +1,32 @@
+export const data =[
+    {
+        id:1,
+        jobTitle: 'Frontend Developer',
+        experience: 'More than 2 years',
+        skillOne: 'HTML',
+        skillTwo: 'CSS',
+        skillThree: 'Javascript',
+        skillFour: 'ReactJs',
+        imgSrc: './image/brackets-curly.svg',
+    },
+    {
+        id:2,
+        jobTitle: 'Designer',
+        experience: 'More than 2 years',
+        skillOne: 'Figma',
+        skillTwo: 'Sketch',
+        skillThree: 'Photoshop',
+        skillFour: 'ReactJs',
+        imgSrc: './image/swatchbook.svg',
+    },
+    {
+        id:3,
+        jobTitle: 'Backend Developer',
+        experience: 'Less than a year',
+        skillOne: 'PHP',
+        skillTwo: 'NodeJS',
+        skillThree: 'Firebase',
+        skillFour: 'Python',
+        imgSrc: './image/server-network.svg',
+    },
+];

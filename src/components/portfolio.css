@@ -1,0 +1,107 @@
+.portfolio {
+    background-color: #E3F0FC;
+    height: 80vh;
+}
+
+.catalogue {
+    display: flex;
+    margin-top: 5%;
+    justify-content: center;
+    gap: 5%;
+    left: 20%;
+    position: relative;
+    font-family: 'Kalam', cursive;
+}
+
+.catalogue img {
+    width: 30%;
+    border-radius: 1rem;
+}
+
+.catalogue h3 {
+    font-size: 2.5rem;
+}
+
+.catalogue span {
+    position: relative;
+    bottom: 3rem;
+}
+
+.catalogue p {
+    font-size: 1.8rem;
+    width: 50%;
+}
+
+.catalogue a {
+    text-decoration: none;
+    font-size: 1.6rem;
+    color: #f3f5f7;
+    background-color: #102438;
+    padding-left: 1.5%;
+    padding-top: 0.6%;
+    padding-bottom: 0.6%;
+    height: 15%;
+    border-radius: 0.6rem;
+    display: flex;
+    align-items: center;
+    width: 8%;
+}
+
+.catalogue .uil-arrow-right {
+    font-size: 1.6rem;
+    color: #f3f5f7;
+}
+
+
+@media screen and (max-width:600px) {
+    .portfolio {
+        padding-bottom: 20%;
+    }
+
+    .catalogue {
+        left: 8%;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .catalogue img {
+        width: 85%;
+        height: 28vh;
+    }
+
+    .catalogue h3 {
+        font-size: 1.8rem;
+        padding-top: 10%;
+    }
+
+    .catalogue p {
+        font-size: 1.4rem;
+        width: 80%;
+        word-wrap: break-word;
+    }
+
+    .catalogue a {
+        padding-left: 3%;
+        width: 6rem;
+    }
+}
+
+
+@media screen and (min-width:768px) {
+    .catalogue {
+        left: 5%;
+    }
+    
+    .catalogue img {
+        width: 40%;
+        height: 35vh;
+    }
+
+    .catalogue p {
+        width: 80%;
+    }
+
+    .catalogue a {
+        width: 6rem;
+    }
+}
