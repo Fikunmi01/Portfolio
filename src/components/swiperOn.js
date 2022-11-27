@@ -1,5 +1,5 @@
 import React from "react";
-import { Data } from "../components/portfolioData";
+import { Data } from "./portfolioData";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
 
