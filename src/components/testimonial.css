@@ -1,9 +1,8 @@
 .testimonial {
     font-family: 'Kalam', cursive;
-    height: 80vh;
     background-color: #f3f5f7;
     margin-top: 4%;
-    padding-bottom: 4%;
+    padding-bottom: 10%;
 }
 
 .testimonial .mySwiper {
@@ -11,7 +10,7 @@
     box-shadow: 0.1rem 0.1rem 0.1rem 0.1rem rgba(0, 0, 0, 0.5);
     margin-top: 5%;
     width: 50%;
-    height: 45vh;
+    padding-bottom: 4%;
     border-radius: 2rem;
 }
 
@@ -81,7 +80,6 @@
 @media screen and (min-width:1440px) {
     .testimonial .mySwiper {
         width: 70%;
-        height: 45vh;
     }
 
     .testimonial .review {

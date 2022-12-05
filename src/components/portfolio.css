@@ -1,6 +1,6 @@
 .portfolio {
     background-color: #E3F0FC;
-    height: 80vh;
+    padding-bottom: 10%;
 }
 
 .catalogue {
@@ -54,10 +54,6 @@
 
 
 @media screen and (max-width:600px) {
-    .portfolio {
-        padding-bottom: 20%;
-    }
-
     .catalogue {
         left: 8%;
         display: flex;

@@ -1,7 +1,8 @@
 .gen-edu {
     width: 100%;
-    /* bottom: 3rem; */
-    /* margin-top: -60rem!important; */
+    position: absolute;
+    bottom: 56rem;
+    height: 0vh;
 }
 
 .slot1 {
@@ -21,7 +22,6 @@
 
 
 
-/* ;; */
 .qualification-category {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -46,6 +46,9 @@
 @media screen and (max-width:600px) {
     .gen-edu {
         position: relative;
+        /* position: absolute; */
+        bottom: 63rem;
+        height: 0vh;
     }
     .slot1 {
         left: 15%;
@@ -71,11 +74,33 @@
 @media screen and (min-width:768px) {
     .gen-edu {
         position: relative;
+        height: 0vh;
+        bottom: 63rem;
+    }
+    .calendarIcon {
+        width: 4%;
     }
 }
 
 @media screen and (min-width:1024px) {
     .gen-edu {
         position: relative;
+        height: 0vh;
+    }
+    .calendarIcon {
+        width: 2.4%;
+    }
+}
+
+
+@media screen and (min-width:1440px) {
+    .gen-edu {
+        position: relative;
+        height: 0vh;
+        bottom: 64rem;
+    }
+
+    .calendarIcon {
+        width: 2.3%;
     }
 }

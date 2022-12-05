@@ -1,5 +1,5 @@
 .services {
-    height: 80vh;
+    height: 65vh;
     background-color: #f3f5f7;
     padding-top: 5%;
 }
@@ -62,9 +62,6 @@
 
     .card a {
         font-size: 1.4rem;
-    }
-    .services {
-        /* height: 100%; */
     }
 }
 
