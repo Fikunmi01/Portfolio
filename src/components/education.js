@@ -50,7 +50,7 @@ export default function Education() {
   ];
   return (
     <>
-      <div className="gen-edu">
+      <div className="gen-edu" id="yeh" >
         {qualification.map((info, i) => (
           <div key={info.id} className="qualification-category">
             <div className="slot1">

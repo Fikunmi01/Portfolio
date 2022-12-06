@@ -18,8 +18,8 @@ export default function Services() {
           <p>What I Offer</p>
 
           {data.map((e, i) => (
-            <div key={e.id}>
-              <div className="card">
+            <div className="card" key={e.id}>
+              <div >
                 <span>
                   <img src={e.iconImg} alt="icon img" />
                   <h3>{e.jobRole}</h3>
