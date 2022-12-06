@@ -48,6 +48,11 @@
     width: 10%;
 }
 
+.card .uil-times {
+    position: relative;
+    bottom: 10%;
+    left:0%;
+}
 
 
 @media screen and (max-width:600px) {

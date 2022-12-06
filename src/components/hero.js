@@ -1,56 +1,51 @@
 import React from "react";
-import './hero.css'
+import "./hero.css";
 
 export default function Hero() {
-    return (
-        <>
-            <div
-                className="hero">
-                <div
-                    className="social-link">
-                    <a href="#.html">
-                        <i className="uil uil-github"></i>
-                    </a>
+  return (
+    <>
+      <div className="hero">
+        <div className="social-link">
+          <a href="#.html">
+            <i className="uil uil-github"></i>
+          </a>
 
-                    <a href="#.html">
-                        <i className="uil uil-linkedin"></i>
-                    </a>
+          <a href="#.html">
+            <i className="uil uil-linkedin"></i>
+          </a>
 
-                    <a href="#.html">
-                        <i className="uil uil-instagram-alt"></i>
-                    </a>
-                    
-                    
-                    <img src="" alt=""/>
-                    <img src="" alt=""/>
-                </div>
+          <a href="#.html">
+            <i className="uil uil-instagram-alt"></i>
+          </a>
 
-                <div
-                    className="hero-description">
-                    <h2>
-                        Hi, I'm Oluwafikunmi.
-                    </h2>
+          <img src="" alt="" />
+          <img src="" alt="" />
+        </div>
 
-                    <p className="role">Frontend Developer | Designer</p>
-                    <p>High level experience in web design and development knowledge, producing quality work</p>
+        <div className="hero-description">
+          <h2>Hi, I'm Oluwafikunmi.</h2>
 
-                    <button>
-                        Contact Me 
-                        <i className="uil uil-navigator"></i>
-                    </button>
+          <p className="role">Frontend Developer | Designer</p>
+          <p>
+            High level experience in web design and development knowledge,
+            producing quality work
+          </p>
 
-                    <p
-                        className="scrollDown">
-                        <i className="uil uil-mouse-alt"></i>
-                        Scroll down
-                    </p>
-                </div>
+          <button>
+            Contact Me
+            <i className="uil uil-navigator"></i>
+          </button>
 
-                <div
-                    className="hero-img">
-                    <img src="../image/heroImg.png" alt="hero png" />
-                </div>
-            </div>
-        </>
-    )
+          <p className="scrollDown">
+            <i className="uil uil-mouse-alt"></i>
+            Scroll down
+          </p>
+        </div>
+
+        <div className="hero-img">
+          <img src="../image/heroImg.png" alt="hero png" />
+        </div>
+      </div>
+    </>
+  );
 }

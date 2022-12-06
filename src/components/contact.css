@@ -1,275 +1,272 @@
 .contact {
-    background-color: #E3F0FC;
-    padding-bottom: 8%;
+  background-color: #e3f0fc;
+  padding-bottom: 8%;
 }
 
-.form{
-    display: flex;
-    font-family: 'Kalam',cursive;
-    justify-content: center;
-    margin-top: 5%;
+.form {
+  display: flex;
+  font-family: "Kalam", cursive;
+  justify-content: center;
+  margin-top: 5%;
 }
 
-.form .flex1  h3{
-    opacity: 90%;
-    font-weight: 100;
-    font-size: 2rem;
-    position: relative;
+.form .flex1 h3 {
+  opacity: 90%;
+  font-weight: 100;
+  font-size: 2rem;
+  position: relative;
 }
 
-.form .flex1 .number{
-    font-size: 1.6rem;
-    opacity: 60%;
-    position: relative;
-    margin-top: -2.5%;
-    color: hsl(230, 8%, 65%);
+.form .flex1 .number {
+  font-size: 1.6rem;
+  opacity: 60%;
+  position: relative;
+  margin-top: -2.5%;
+  color: hsl(230, 8%, 65%);
 }
 
-.form .uil-phone{
-    font-size: 2.8rem;
-    color: #102438;
-    top: 5%;
-    position: relative;
+.form .uil-phone {
+  font-size: 2.8rem;
+  color: #102438;
+  top: 5%;
+  position: relative;
 }
 
-.item1{
-    display: flex;
-    margin-bottom: 14%;
+.item1 {
+  display: flex;
+  margin-bottom: 14%;
 }
 
-.item1b{
-    position: relative;
-    padding-left: 5%;
-    margin-top: -7%;
+.item1b {
+  position: relative;
+  padding-left: 5%;
+  margin-top: -7%;
 }
 
-.item1b h3{
-    line-height: 1;
+.item1b h3 {
+  line-height: 1;
 }
 
-.item2{
-    display: flex;
-    margin-bottom: 14%;
+.item2 {
+  display: flex;
+  margin-bottom: 14%;
 }
 
-.item2b{
-    position: relative;
-    padding-left: 5%;
-    margin-top: -7%;
+.item2b {
+  position: relative;
+  padding-left: 5%;
+  margin-top: -7%;
 }
 
-.item2b h3{
-    line-height: 1;
+.item2b h3 {
+  line-height: 1;
 }
 
-.form .uil-envelope{
-    font-size: 30px;
-    color: #102438;
-    top: 5%;
-    position: relative;
+.form .uil-envelope {
+  font-size: 30px;
+  color: #102438;
+  top: 5%;
+  position: relative;
 }
 
-.item3{
-    display: flex;
-    margin-bottom: 14%;
+.item3 {
+  display: flex;
+  margin-bottom: 14%;
 }
 
-.item3b h3{
-    line-height: 1;
+.item3b h3 {
+  line-height: 1;
 }
 
-.item3b{
-    position: relative;
-    padding-left: 5%;
-    margin-top: -7%;
+.item3b {
+  position: relative;
+  padding-left: 5%;
+  margin-top: -7%;
 }
 
-.form .uil-map-marker{
-    font-size: 30px;
-    color: #102438;
-    top: 5%;
-    position: relative;
+.form .uil-map-marker {
+  font-size: 30px;
+  color: #102438;
+  top: 5%;
+  position: relative;
 }
 
-.name-div{
-    display: flex;
-    padding-left: 12%;
+.name-div {
+  display: flex;
+  padding-left: 12%;
 }
 
-.name-div textarea{
-    margin-top: -3%;
-    height: 10vh;
-    background-color: #fff;
-    border: 1px solid whitesmoke;
-    border-radius: 7px;
-    margin-right: 25px;
-    color: hsl(230, 8%,65%);
+.name-div textarea {
+  margin-top: -3%;
+  height: 10vh;
+  background-color: #fff;
+  border: 1px solid whitesmoke;
+  border-radius: 7px;
+  margin-right: 25px;
+  color: hsl(230, 8%, 65%);
 }
 
-.name-div ::placeholder{
-    position: relative;
-    padding-top: 5%;
-    font-size: 2rem;
-    font-family: 'Kalam',cursive;
-    padding-left: 5%;
+.name-div ::placeholder {
+  position: relative;
+  padding-top: 5%;
+  font-size: 2rem;
+  font-family: "Kalam", cursive;
+  padding-left: 5%;
 }
 
-.email-div{
-    padding-left: 12%;
+.email-div {
+  padding-left: 12%;
 }
 
-.email-div textarea{
-    margin-top: 4%;
-    width: 94.5%;
-    height: 10vh;
-    background-color: #fff;
-    border: 1px solid whitesmoke;
-    border-radius: 7px;
-    margin-right: 25px;
-    color: hsl(230,8%,65%);
+.email-div textarea {
+  margin-top: 4%;
+  width: 94.5%;
+  height: 10vh;
+  background-color: #fff;
+  border: 1px solid whitesmoke;
+  border-radius: 7px;
+  margin-right: 25px;
+  color: hsl(230, 8%, 65%);
 }
 
-.email-div ::placeholder{
-    position: relative;
-    padding-top: 2%;
-    font-family: 'Kalam', cursive;
-    padding-left: 2%;
-    font-size: 2rem;
+.email-div ::placeholder {
+  position: relative;
+  padding-top: 2%;
+  font-family: "Kalam", cursive;
+  padding-left: 2%;
+  font-size: 2rem;
 }
 
-.comment-div{
-    padding-left: 12%;
+.comment-div {
+  padding-left: 12%;
 }
 
-.comment-div textarea{
-    margin-top: 4%;
-    width: 94.5%;
-    height: 30vh;
-    background-color: #fff;
-    border: 1px solid whitesmoke;
-    border-radius: 7px;
-    margin-right: 25px;
-    color: hsl(230,8%,65%);
+.comment-div textarea {
+  margin-top: 4%;
+  width: 94.5%;
+  height: 30vh;
+  background-color: #fff;
+  border: 1px solid whitesmoke;
+  border-radius: 7px;
+  margin-right: 25px;
+  color: hsl(230, 8%, 65%);
 }
 
-.comment-div ::placeholder{
-    position: relative;
-    padding-top: 2%;
-    font-size: 2rem;
-    padding-left: 2%;
-    font-family: 'Kalam',cursive;
+.comment-div ::placeholder {
+  position: relative;
+  padding-top: 2%;
+  font-size: 2rem;
+  padding-left: 2%;
+  font-family: "Kalam", cursive;
 }
 
-.submit-div button{
-    padding-left: 1.5%;
-    display: flex;
-    align-items: center;
-    font-family: 'Kalam',cursive;
-    gap: 0.5rem;
-    font-size: 1.6rem;
-    height: 7.5vh;
-    background-color: #102438;
-    position: relative;
-    border: #102438;
-    left: 12%;
-    text-decoration: none;
-    color: #f3f5f7;
-    border-radius: 0.6rem;
+.submit-div button {
+  padding-left: 1.5%;
+  display: flex;
+  align-items: center;
+  font-family: "Kalam", cursive;
+  gap: 0.5rem;
+  font-size: 1.6rem;
+  height: 7.5vh;
+  background-color: #102438;
+  position: relative;
+  border: #102438;
+  left: 12%;
+  text-decoration: none;
+  color: #f3f5f7;
+  border-radius: 0.6rem;
 }
 
-.submit-div{
-    margin-top: 2.5%;
+.submit-div {
+  margin-top: 2.5%;
 }
 
 .uil-message {
-    color: #E3F0FC;
-    font-size: 1.6rem;
+  color: #e3f0fc;
+  font-size: 1.6rem;
 }
 
+@media screen and (max-width: 600px) {
+  .form {
+    display: flex;
+    flex-direction: column;
+  }
 
+  .name-div {
+    display: flex;
+    width: 97%;
+    flex-direction: column;
+    gap: 2.3rem;
+  }
 
-@media screen and (max-width:600px) {
-    .form {
-        display: flex;
-        flex-direction: column;
-    }
+  .flex1 {
+    left: 4%;
+    position: relative;
+  }
 
-    .name-div {
-        display: flex;
-        width: 97%;
-        flex-direction: column;
-        gap: 2.3rem;
-    }
+  .flex2 {
+    position: relative;
+    right: 8%;
+  }
 
-    .flex1 {
-        left: 4%;
-        position: relative;
-    }
+  .email-div {
+    width: 93%;
+  }
 
-    .flex2 {
-        position: relative;
-        right: 8%;
-    }
+  .comment-div {
+    width: 93%;
+    column-count: 1;
+  }
 
-    .email-div {
-        width: 93%;
-    }
+  .form .flex1 h3 {
+    font-size: 1.8rem;
+  }
 
-    .comment-div {
-        width: 93%;
-        column-count: 1;
-    }
-
-    .form .flex1 h3 {
-        font-size: 1.8rem;
-    }
-
-    .form .flex1 .number {
-        font-size: 1.4rem;
-        margin-top: -1.5rem;
-    }
-    .flex1 .uil {
-        top: -30%;
-    } 
+  .form .flex1 .number {
+    font-size: 1.4rem;
+    margin-top: -1.5rem;
+  }
+  .flex1 .uil {
+    top: -30%;
+  }
 }
 
+@media screen and (min-width: 768px) {
+  .form {
+    width: 100%;
+  }
 
-@media screen and (min-width:768px) {
-    .form {
-        width: 100%;
-    }
+  .flex1 {
+    left: 6%;
+    position: relative;
+  }
 
-    .flex1 {
-        left: 6%;
-        position: relative;
-    }
+  .name-div {
+    width: 85%;
+  }
 
-    .name-div {
-        width: 85%;
-    }
+  .flex2 {
+    position: relative;
+    right: 0%;
+  }
 
-    .flex2 {
-        position: relative;
-        right: 0%;
-    }
+  .email-div {
+    width: 85%;
+  }
 
-    .email-div {
-        width: 85%;
-    }
-
-    .comment-div {
-        width: 85%;
-    }
+  .comment-div {
+    width: 85%;
+  }
 }
 
-@media screen and (min-width:1024px) {
-    .flex1 {
-        left: 0%;
-    }
+@media screen and (min-width: 1024px) {
+  .flex1 {
+    left: 0%;
+  }
 }
 
-@media screen and (min-width:1440px) {
-    .flex1 {
-        left: 0%;
-    }
+@media screen and (min-width: 1440px) {
+  .flex1 {
+    left: 0%;
+  }
 }
