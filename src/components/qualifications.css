@@ -117,6 +117,12 @@
     }
 }
 
+@media screen and (min-width:412px) {
+    .qualification {
+        height: 80vh;
+    }
+}
+
 
 
 
