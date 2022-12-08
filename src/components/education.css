@@ -77,7 +77,7 @@
 
 @media screen and (min-width: 425px) {
   .gen-edu {
-    bottom: 63rem;
+    bottom: 37rem;
   }
 }
 
@@ -105,7 +105,7 @@
 
 @media screen and (min-width: 1366px) {
   .gen-edu {
-    top: -63rem;
+    top: -63rem!important;
     height: 0vh;
   }
 }

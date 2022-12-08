@@ -113,18 +113,25 @@
     .gen-edu {
         position: relative;
         bottom: 120rem!important;
-        background-color: red;
     }
 }
 
 @media screen and (min-width:412px) {
     .qualification {
-        height: 80vh;
+        height: 86vh;
     }
 }
 
 
+@media screen and (min-width:425px) {
+    .qualification {
+        height: 120vh;
+    }    
 
+    .gen-edu {
+        bottom: 57rem;
+    }
+}
 
 @media screen and (min-width:768px) {
     .qualification {
