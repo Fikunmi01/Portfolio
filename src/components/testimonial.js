@@ -5,10 +5,11 @@ import { Swiper, SwiperSlide } from "swiper/react";
 
 // Import Swiper styles
 import "swiper/css";
+import 'swiper/css/pagination'
 import "swiper/css/navigation";
 
 // import required modules
-import { Navigation } from "swiper";
+import { Navigation, Pagination } from "swiper";
 
 export default function Testimonial() {
   const review = [
@@ -58,7 +59,7 @@ export default function Testimonial() {
         </div>
 
         <>
-          <Swiper navigation={true} modules={[Navigation]} className="mySwiper">
+          <Swiper navigation={true} pagination={{dynamicBullets: true}} modules={[Navigation, Pagination]} className="mySwiper">
             {review.map((review, i) => (
               <div key={review.id}>
                 <SwiperSlide key={review.id}>

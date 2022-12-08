@@ -68,11 +68,17 @@
 }
 
 
-@media screen and (min-width: 500px)  {
+@media screen and (min-width: 412px)  {
   .gen-edu {
-    bottom: 73rem;
+    bottom: 103rem;
   }
   
+}
+
+@media screen and (min-width: 425px) {
+  .gen-edu {
+    bottom: 63rem;
+  }
 }
 
 
