@@ -1,152 +1,143 @@
 .qualification {
-    position: relative;
-    height: 1vh;
-    padding-top: 2%;
+  position: relative;
+  height: 1vh;
+  padding-top: 2%;
 }
 
 .qualification-menu {
-    display: flex;
-    justify-content: center;
-    gap: 2%;
+  display: flex;
+  justify-content: center;
+  gap: 2%;
 }
 
 .qualification-menu a {
-    align-items: center;
-    font-family: 'kalam', cursive;
-    text-decoration: none;
-    font-size: 3rem;
-    font-weight: 900;
+  align-items: center;
+  font-family: "kalam", cursive;
+  text-decoration: none;
+  font-size: 3rem;
+  font-weight: 900;
 }
 
 .active {
-    color: #000;
+  color: #000;
 }
 
 .link {
-    color: rgba(0, 0, 0, 0.5);
+  color: rgba(0, 0, 0, 0.5);
 }
 
-
-
-.qualification__rounder{
-    display: inline-block;
-    width: 13px;
-    height: 13px;
-    background-color: #102438;
-    border-radius: 50%;
+.qualification__rounder {
+  display: inline-block;
+  width: 13px;
+  height: 13px;
+  background-color: #102438;
+  border-radius: 50%;
 }
 
-#sub-rounder{
-    position: relative;
-    top: -7%;
+#sub-rounder {
+  position: relative;
+  top: -7%;
 }
 
-#sub-line{
-    position: relative;
-    top: -7%;
+#sub-line {
+  position: relative;
+  top: -7%;
 }
 
-#sub-rounder1{
-    position: relative;
-    top: -13%;
+#sub-rounder1 {
+  position: relative;
+  top: -13%;
 }
 
-#sub-line1{
-    position: relative;
-    top: -13%;
+#sub-line1 {
+  position: relative;
+  top: -13%;
 }
 
-#sub-rounder2{
-    position: relative;
-    top: -19%;
+#sub-rounder2 {
+  position: relative;
+  top: -19%;
 }
 
-#sub-line2{
-    position: relative;
-    top: -19%;
+#sub-line2 {
+  position: relative;
+  top: -19%;
 }
 
-#sub-rounder3{
-    position: relative;
-    top: -25%;
+#sub-rounder3 {
+  position: relative;
+  top: -25%;
 }
 
-.gen-rounder .qualification__line{
-    display: block;
-    width: 1px;
-    position: relative;
-    top: -1%;
-    height: 140%;
-    background-color: #102438;
-    transform: translate(6px, -7px);
+.gen-rounder .qualification__line {
+  display: block;
+  width: 1px;
+  position: relative;
+  top: -1%;
+  height: 140%;
+  background-color: #102438;
+  transform: translate(6px, -7px);
 }
 
-.gen-rounder{
-    top: 6rem;
-    right: 1%;
-    position: relative;
+.gen-rounder {
+  top: 6rem;
+  right: 1%;
+  position: relative;
 }
 
+@media screen and (max-width: 600px) {
+  .qualification {
+    height: 130vh;
+  }
+  .qualification-menu {
+    gap: 12%;
+  }
 
+  .qualification-menu a {
+    font-size: 2rem;
+  }
 
-@media screen and (max-width:600px) {
-    .qualification {
-        height: 130vh;
-    }
-    .qualification-menu {
-        gap: 12%;
-    }
-    
-    .qualification-menu a {
-        font-size: 2rem;
-    }
-
-    .gen-rounder {
-        right: 5%;
-    }
+  .gen-rounder {
+    right: 5%;
+  }
 }
 
-
-
-
-@media screen and (min-width:600px) {
-    .gen-edu {
-        position: relative;
-        bottom: 120rem!important;
-    }
+@media screen and (min-width: 412px) {
+  .qualification {
+    height: 86vh;
+  }
 }
 
-@media screen and (min-width:412px) {
-    .qualification {
-        height: 86vh;
-    }
+@media screen and (min-width: 425px) {
+  .qualification {
+    height: 120vh;
+  }
+
+  .gen-edu {
+    bottom: 57rem;
+  }
 }
 
-
-@media screen and (min-width:425px) {
-    .qualification {
-        height: 120vh;
-    }    
-
-    .gen-edu {
-        bottom: 57rem;
-    }
+@media screen and (min-width: 768px) {
+  .qualification {
+    height: 115vh;
+  }
 }
 
-@media screen and (min-width:768px) {
-    .qualification {
-        height: 130vh;
-    }
+@media screen and (min-width: 992px) {
+  .qualification {
+    height: 116vh;
+  }
 }
 
-@media screen and (min-width:1024px) {
-    .qualification {
-        height: 115vh;
-    }
+@media screen and (min-width: 1024px) {
+  .qualification {
+    height: 136vh;
+  }
 }
 
-@media screen and (min-width:1440px) {
-    .qualification {
-        height: 80vh;
-    }
+@media screen and (min-width: 1440px) {
+  .qualification {
+    height: 80vh;
+  }
 }

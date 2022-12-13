@@ -17,9 +17,6 @@ export default function Hero() {
           <a href="#.html">
             <i className="uil uil-instagram-alt"></i>
           </a>
-
-          <img src="" alt="" />
-          <img src="" alt="" />
         </div>
 
         <div className="hero-description">

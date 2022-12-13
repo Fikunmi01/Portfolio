@@ -132,6 +132,26 @@
   }
 }
 
+@media screen and (min-width: 500px) {
+  .hero {
+    position: relative;
+  }
+
+  @media screen and (min-width:600px) {
+    .hero-description button {
+      width: 11rem;
+    }
+  }
+
+  .hero-description {
+    top: 35rem;
+  }
+
+  .hero-img {
+    height: 55vh;
+  }
+}
+
 @media screen and (min-width: 768px) {
   .hero-img img {
     width: 130%;
